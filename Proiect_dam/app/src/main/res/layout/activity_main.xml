@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    style="@style/ToolbarThemecustom"
+    >
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/main_app_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/new_member_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/new_user_icon"
+        app:layout_constraintEnd_toStartOf="@id/new_member_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_logo"
+
+
+        >
+
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btn_new_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_btn"
+        android:text="@string/new_member"
+        android:textSize="20sp"
+        style="@style/Just_simple_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/new_member_icon"
+        app:layout_constraintTop_toBottomOf="@id/img_logo">
+
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/already_member"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/alreadymember"
+        app:layout_constraintEnd_toStartOf="@id/btn_already_member"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/new_member_icon"
+
+
+        >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btn_already_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_btn"
+        style="@style/Just_simple_style"
+        android:text="@string/welcome_back"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/already_member"
+        app:layout_constraintTop_toBottomOf="@id/btn_new_member"
+
+
+        >
+
+    </Button>
+
+    <ImageButton
+        android:layout_width="51dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_terms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/json_logo"
+        android:id="@+id/btn_json"
+        >
+
+    </ImageButton>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_terms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/terms_and"
+        android:textColor="@color/white"
+        android:text="@string/terms"
+        >
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

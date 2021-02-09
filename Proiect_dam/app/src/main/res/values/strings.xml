@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Proiect_dam</string>
+    <string name="new_member">New member ?</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="terms">too much free time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_string">Welcome in my small project</string>
+    <string name="name">Name</string>
+    <string name="prenume">Prenume</string>
+    <string name="emil">Email</string>
+    <string name="pf">Pers fizica</string>
+    <string name="pj">Pers juridica</string>
+    <string name="submit">Submit</string>
+    <string name="nume_invalid">Nume invalid</string>
+    <string name="prenume_invalid">Prenume Invalid</string>
+    <string name="parola">Parola</string>
+    <string name="email_gresit">Email invalid</string>
+    <string name="parola_invalida">Parola Invalida</string>
+    <string name="login">log in</string>
+
+    <string-array name="cat1">
+        <item>"Amator"</item>
+        <item>"Colectionar"</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Obiectelistate">Obiecte listate</string>
+    <string name="istoric">Istoric</string>
+    <string name="liciteaza">Liciteaza cu noi</string>
+    <string name="liciteazaresponsabil">Liciteaza responsabil</string>
+    <string name="Numeanunt">Titlul anuntului</string>
+    <string name="AlegePoza">Alege Poza</string>
+    <string name="AlegeOdescriere">Descriere :</string>
+    <string name="pret">Pret in lei</string>
+    <string name="numarMembrii">"Numar de conturi existente: "</string>
+    <string name="titlu_invalid">Titlul este invalid</string>
+    <string name="pret_invalid">Pret invalid</string>
+    <string name="descriere_invalid">Descriere invalida</string>
+    <string name="imagine_invalida">Va rugam sa selectati o imagine</string>
+    <string name="ok">Totul a fost incarcat , felicitari!</string>
+    <string name="Multumim">Multumim pentru vizionare</string>
+    <string name="Start">Start: </string>
+    <string name="VizualizareImagine">VizualizareImagine</string>
+    <string name="Reguli">Reguli</string>
+    <string name="Regulanr">Regula numarul</string>
+    <string name="Textaici">Aici trebuia sa fie imaginea produsului dar nu a vrut sa apara</string>
+    <string name="intro">Felicitari! Bine ai venit :) .\n Poti sa citesti initial regulile , in felul asta o sa vezi cum functioneaza aplicatia.\n Bafta multa !\n Atentie!!! Aceasta aplicatie este pentru blind auction , nimic mai mult.</string>
+</resources>
